@@ -1,6 +1,6 @@
 # db refers to database in this file
-
 from app import settings
+import time
 from sqlmodel import create_engine, SQLModel, Session
 
 
@@ -9,6 +9,7 @@ engine = create_engine(url=DATABASE_URL, echo=True)
 
 
 def initialize_db():
+    time.sleep(5)
     SQLModel.metadata.create_all(bind=engine)
 
 

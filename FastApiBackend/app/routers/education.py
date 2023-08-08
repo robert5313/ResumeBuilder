@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
+from pydantic import EmailStr
 from app.core.db import get_db_session
 from typing import List
 from sqlmodel import Session, select
@@ -10,6 +11,8 @@ from app.core.models import (
     User,
 )
 
+# The line `router = APIRouter(prefix="/users/{user_id}/education", tags=["Education"])` is creating a
+# new instance of the `APIRouter` class.
 router = APIRouter(prefix="/users/{user_id}/education", tags=["Education"])
 
 
@@ -21,7 +24,9 @@ def read_user_education(
     offset: int = 0,
     limit: int = Query(default=10, lte=15),
 ):
-    query_statement = select(User).where(User.id == user_id).offset(offset).limit(limit)
+    query_statement = (
+        select(User).where(User.user_id == user_id).offset(offset).limit(limit)
+    )
     user = session.exec(query_statement).one_or_none()
 
     if user is None:

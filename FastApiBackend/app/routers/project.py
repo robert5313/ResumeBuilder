@@ -10,6 +10,8 @@ from app.core.models import (
     User,
 )
 
+# The `router` variable is creating an instance of the `APIRouter` class from the FastAPI framework.
+# It is used to define the routes and endpoints for the project-related operations.
 router = APIRouter(prefix="/users/{user_id}/project", tags=["Project"])
 
 
@@ -21,7 +23,9 @@ def read_user_project(
     offset: int = 0,
     limit: int = Query(default=10, lte=15),
 ):
-    query_statement = select(User).where(User.id == user_id).offset(offset).limit(limit)
+    query_statement = (
+        select(User).where(User.user_id == user_id).offset(offset).limit(limit)
+    )
     user = session.exec(query_statement).one_or_none()
 
     if user is None:

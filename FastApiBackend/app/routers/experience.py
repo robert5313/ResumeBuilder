@@ -10,6 +10,8 @@ from app.core.models import (
     User,
 )
 
+# The line `router = APIRouter(prefix="/users/{user_id}/experience", tags=["Experience"])` creates a
+# new instance of the `APIRouter` class with a specified prefix and tags.
 router = APIRouter(prefix="/users/{user_id}/experience", tags=["Experience"])
 
 
@@ -21,7 +23,9 @@ def read_user_experience(
     offset: int = 0,
     limit: int = Query(default=10, lte=15),
 ):
-    query_statement = select(User).where(User.id == user_id).offset(offset).limit(limit)
+    query_statement = (
+        select(User).where(User.user_id == user_id).offset(offset).limit(limit)
+    )
     user = session.exec(query_statement).one_or_none()
 
     if user is None:
@@ -82,10 +86,7 @@ def update_user_experience(
 
 @router.delete("/{experience_id}")
 def delete_user_experience(
-    *,
-    session: Session = Depends(get_db_session),
-    user_id: int,
-    experience_id: int,
+    *, session: Session = Depends(get_db_session), user_id: int, experience_id: int
 ):
     query_statement = (
         select(Experience)

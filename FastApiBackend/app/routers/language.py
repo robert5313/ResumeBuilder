@@ -11,6 +11,8 @@ from app.core.models import (
 )
 
 
+# The `router` variable is creating an instance of the `APIRouter` class from the FastAPI framework.
+# It is used to define the routes and endpoints for the `/users/{user_id}/language` path.
 router = APIRouter(prefix="/users/{user_id}/language", tags=["Language"])
 
 
@@ -22,7 +24,9 @@ def read_user_language(
     offset: int = 0,
     limit: int = Query(default=10, lte=15),
 ):
-    query_statement = select(User).where(User.id == user_id).offset(offset).limit(limit)
+    query_statement = (
+        select(User).where(User.user_id == user_id).offset(offset).limit(limit)
+    )
     user = session.exec(query_statement).one_or_none()
 
     if user is None:

@@ -1,14 +1,11 @@
 from fastapi import Depends, HTTPException, Query, APIRouter
 from app.core.db import get_db_session
-from typing import List
+from typing import List, Optional
 from sqlmodel import Session, select
+from app.helpers.services.user_endpoint import UserServices
+from pydantic import EmailStr
 
-from app.core.models import (
-    UserRead,
-    User,
-    UserCreate,
-    UserUpdate,
-)
+from app.core.models import UserRead, User, UserCreate, UserUpdate
 
 router = APIRouter(prefix="/users", tags=["Users"])
 
@@ -30,27 +27,42 @@ def read_user(
     *,
     session: Session = Depends(get_db_session),
     user_id: int,
+    email: Optional[EmailStr] = None,
 ):
-    user = session.get(User, user_id)
-    if not user:
+    user_service = UserServices(session=session)
+    user_instance = user_service.get_user(email=email, user_id=user_id)
+    if user_instance is None:
+        raise HTTPException(status_code=404, detail="User not Found")
+    else:
+        return user_instance
+
+
+@router.get("/{user_id}/full_profile")
+def read_user_profile(
+    *,
+    session: Session = Depends(get_db_session),
+    user_id: int,
+    email: Optional[EmailStr] = None,
+):
+    user_service = UserServices(session=session)
+    user_instance = user_service.get_full_profile(email=email, user_id=user_id)
+
+    if user_instance:
+        return user_instance
+    else:
         raise HTTPException(status_code=404, detail="User not Found")
 
-    return user
 
-
-@router.post("/{user_id}", response_model=UserRead)
+@router.post("/", response_model=UserRead)
 def create_user(
     *,
     session: Session = Depends(get_db_session),
     user: UserCreate,
 ):
-    db_user = User.from_orm(user)
+    user_service = UserServices(session=session)
+    new_user_instance = user_service.create_user(new_user=user)
 
-    session.add(db_user)
-    session.commit()
-    session.refresh(db_user)
-
-    return db_user
+    return new_user_instance
 
 
 @router.patch("/{user_id}", response_model=UserRead)
@@ -60,28 +72,22 @@ def update_user(
     user_id: int,
     user: UserUpdate,
 ):
-    db_user_instance = session.get(User, user_id)
-    if not db_user_instance:
-        raise HTTPException(status_code=404, detail="User not Found")
-
-    new_user_data = user.dict(exclude_unset=True)
-    for key, value in new_user_data.items():
-        setattr(db_user_instance, key, value)
-
-    session.add(db_user_instance)
-    session.commit()
-    session.refresh(db_user_instance)
+    user_service = UserServices(session=session)
+    db_user_instance = user_service.update_user(user_id=user_id, new_user=user)
 
     return db_user_instance
 
 
 @router.delete("/{user_id}")
-def delete_user(*, session: Session = Depends(get_db_session), user_id: int):
-    user = session.get(User, user_id)
-    if not user:
+def delete_user(
+    *,
+    session: Session = Depends(get_db_session),
+    user_id: int,
+    email: Optional[EmailStr] = None,
+):
+    user_service = UserServices(session=session)
+    # if deletion is successfull
+    if user_service.delete_user(user_id=user_id, email=email):
+        return {"ok": True}
+    else:
         raise HTTPException(status_code=404, detail="User not Found")
-
-    session.delete(user)
-    session.commit()
-
-    return {"ok": True}
