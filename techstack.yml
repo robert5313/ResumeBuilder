@@ -1,0 +1,886 @@
+repo_name: robert5313/ResumeBuilder
+report_id: 54e73c32e05ea405aa35c060075f6755
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T17:45:32+00:00'
+requested_by: robert5313
+provider: github
+branch: main
+detected_tools_count: 65
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-22 08:20:39.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.98.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-23 13:35:00.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/AngularFrontend/Dockerfile
+  detection_source: AngularFrontend/Dockerfile
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-22 08:17:50.000000000 Z
+- name: Nuxt.js
+  description: The Vue.js Framework
+  website_url: https://nuxtjs.org
+  version: 3.6.3
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/7304/23360933.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/VueFrontend/yarn.lock
+  detection_source: VueFrontend/package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-06-30 14:41:14.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/VueFrontend/package.json
+  detection_source: VueFrontend/package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-06-30 14:41:14.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 6.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/VueFrontend/package.json
+  detection_source: VueFrontend/package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-08-01 14:36:40.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: '15.3'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.4.41
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-06-26 20:00:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-22 08:20:39.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/requirements.txt
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-06-26 20:00:16.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/yarn.lock
+  detection_source: ReactFrontend/my-app/yarn.lock
+  last_updated_by: KimelirR
+  last_updated_on: 2023-07-27 14:32:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-07-31 14:16:14.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: Cm_Cache_Backend_File
+  website_url: https://github.com/colinmollenhour/Cm_Cache_Backend_File
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/1866/38738.jpeg
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: Formik
+  description: Build forms in React
+  website_url: https://jaredpalmer.com/formik/
+  version: 2.4.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Web Forms
+  image_url: https://img.stackshare.io/service/8846/preview.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-08 09:14:37.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-08 09:14:37.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/requirements.txt
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-29 11:21:12.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-29 11:21:12.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: asyncpg
+  description: An asyncio PostgreSQL driver
+  package_url: https://pypi.org/project/asyncpg
+  version: 0.27.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20348/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.7.22
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: email-validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email-validator
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/requirements.txt
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-02 12:22:19.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.24.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: iniconfig
+  description: Brain-dead simple config-ini parsing
+  package_url: https://pypi.org/project/iniconfig
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.1'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: pathspec
+  description: Utility library for gitignore style pattern matching of file paths
+  package_url: https://pypi.org/project/pathspec
+  version: 0.11.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20261/default_24e344cf78482d8a66297ae9ebea86f00b570483.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: phonenumbers
+  description: Python version of Google's common library for parsing
+  package_url: https://pypi.org/project/phonenumbers
+  version: 8.13.18
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20180/default_cce94831138206ab61e361b18c1d852a1e5ab6a1.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: pluggy
+  description: Plugin and hook calling mechanisms for python
+  package_url: https://pypi.org/project/pluggy
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20041/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.7
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-02 12:22:19.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-08-07 20:02:26.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.27.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/requirements.txt
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-25 10:20:38.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/FastApiBackend/poetry.lock
+  detection_source: FastApiBackend/pyproject.toml
+  last_updated_by: Mbatha-Marvin
+  last_updated_on: 2023-06-23 13:35:00.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.16.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/VueFrontend/yarn.lock
+  detection_source: VueFrontend/package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-07-18 13:49:11.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-08-02 17:44:59.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/ReactFrontend/my-app/package-lock.json
+  detection_source: ReactFrontend/my-app/package.json
+  last_updated_by: robert5313
+  last_updated_on: 2023-06-26 20:00:16.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+- name: vuedraggable
+  description: Draggable component for vue
+  package_url: https://www.npmjs.com/vuedraggable
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/robert5313/ResumeBuilder/blob/main/VueFrontend/yarn.lock
+  detection_source: VueFrontend/package.json
+  last_updated_by: KimelirR
+  last_updated_on: 2023-08-01 14:36:40.000000000 Z
