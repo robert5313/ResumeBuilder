@@ -3,30 +3,30 @@
 ## Tech Stack
 robert5313/ResumeBuilder is built on the following main stack:
 
-- [Python](https://www.python.org) – Languages
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [PostgreSQL](http://www.postgresql.org/) – Databases
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [TypeScript](http://www.typescriptlang.org) – Languages
-- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- [ESLint](http://eslint.org/) – Code Review
-- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
 - [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- [pytest](http://pytest.org/latest/) – Testing Frameworks
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- [vuex](https://vuex.vuejs.org) – State Management Library
-- [styled-components](https://styled-components.com) – JavaScript Framework Components
-- [Nuxt.js](https://nuxtjs.org) – Front-End Frameworks
-- [Formik](https://jaredpalmer.com/formik/) – Web Forms
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Python](https://www.python.org) – Languages
+- [TypeScript](http://www.typescriptlang.org) – Languages
+- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [Nuxt.js](https://nuxtjs.org) – Front-End Frameworks
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- [styled-components](https://styled-components.com) – JavaScript Framework Components
+- [vuex](https://vuex.vuejs.org) – State Management Library
+- [PostgreSQL](http://www.postgresql.org/) – Databases
+- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [pytest](http://pytest.org/latest/) – Testing Frameworks
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Formik](https://jaredpalmer.com/formik/) – Web Forms
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -36,30 +36,30 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 robert5313/ResumeBuilder is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
 - <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/6705/6128107.png' alt='vuex'/> [vuex](https://vuex.vuejs.org) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/6749/styled-components.png' alt='styled-components'/> [styled-components](https://styled-components.com) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/7304/23360933.png' alt='Nuxt.js'/> [Nuxt.js](https://nuxtjs.org) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/8846/preview.png' alt='Formik'/> [Formik](https://jaredpalmer.com/formik/) – Web Forms
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/7304/23360933.png' alt='Nuxt.js'/> [Nuxt.js](https://nuxtjs.org) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/6749/styled-components.png' alt='styled-components'/> [styled-components](https://styled-components.com) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/6705/6128107.png' alt='vuex'/> [vuex](https://vuex.vuejs.org) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/8846/preview.png' alt='Formik'/> [Formik](https://jaredpalmer.com/formik/) – Web Forms
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -70,7 +70,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [robert5313/ResumeBuilder](https://github.com/robert5313/ResumeBuilder)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|65<br/>Tools used|01/23/24 <br/>Report generated|
+|65<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -372,7 +372,7 @@ Full tech stack [here](/techstack.md)
 |[pydantic](https://pypi.org/project/pydantic)|v1.10.12|08/02/23|Mbatha-Marvin |MIT|N/A|
 |[pytest-asyncio](https://pypi.org/project/pytest-asyncio)|v0.21.1|08/07/23|Mbatha-Marvin |Apache-2.0|N/A|
 |[python-dotenv](https://pypi.org/project/python-dotenv)|v1.0.0|06/25/23|Mbatha-Marvin |BSD-3-Clause|N/A|
-|[starlette](https://pypi.org/project/starlette)|v0.27.0|06/25/23|Mbatha-Marvin |BSD-3-Clause|N/A|
+|[starlette](https://pypi.org/project/starlette)|v0.27.0|06/25/23|Mbatha-Marvin |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)|
 |[uvicorn](https://pypi.org/project/uvicorn)|v0.22.0|06/23/23|Mbatha-Marvin |BSD-3-Clause|N/A|
 
 
