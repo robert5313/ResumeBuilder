@@ -2,7 +2,7 @@ repo_name: robert5313/ResumeBuilder
 report_id: 54e73c32e05ea405aa35c060075f6755
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T17:45:32+00:00'
+timestamp: '2024-02-29T19:35:49+00:00'
 requested_by: robert5313
 provider: github
 branch: main
@@ -709,6 +709,19 @@ tools:
   detection_source: FastApiBackend/requirements.txt
   last_updated_by: Mbatha-Marvin
   last_updated_on: 2023-06-25 10:20:38.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
 - name: uvicorn
   description: The lightning-fast ASGI server
   package_url: https://pypi.org/project/uvicorn
